@@ -38,7 +38,7 @@ from nectarengine.wallet import Wallet
 
 # --- Config ---
 ACCOUNT = "peakecoin"
-POSTING_KEY = "5Khy92RPZu4ymwoCumvBEMQj6uicgcZxPwNLbr6kAZMrbJcLCFA"    # Your posting key for replies
+POSTING_KEY = "postingkey"    # Your posting key for replies
 TOKEN = "PEK"
 TIP_DELAY_SECONDS = 180
 RC_THRESHOLD_PERCENT = 10
@@ -154,3 +154,4 @@ def monitor_comments():
 if __name__ == "__main__":
     show_whitelist_balances()
     monitor_comments()
+
